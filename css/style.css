@@ -1,0 +1,117 @@
+body {
+    box-sizing: border-box;
+    margin: 2%;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+/* CABECALHO */
+
+.cabecalho {
+    background-color: #beb9c7;
+    font-family: 'Abril Fatface', cursive;
+    color: white;
+    padding: 10px;
+    margin: 0 80vh;
+    font-size: 1.5rem;
+    width: 15%;
+    text-align: center;
+    border-radius: 1rem;
+}
+
+/* BANNER */
+
+.banner {
+    background: url(/img/fotobanner.jpg) center no-repeat;
+    background-size: cover;
+    height: 50vh;
+    text-align: left;
+    border-radius: 1rem;
+}
+
+.banner__citacao {
+    font-family: 'Cedarville Cursive', cursive;
+    font-weight: bold;
+    font-size: 1.2rem;
+    color: white;
+    text-align: left;
+    width: 35%;
+    padding: 30vh 5vh;
+}
+
+/* SOBRE */
+
+.sobre-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    color: #8c8c8c;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: 0 10%;
+    width: 200vh;
+}
+
+.sobre-bio, .sobre-habilidades {
+    width: 40%;
+    text-align: justify;
+}
+
+.sobre-bio__titulo, .sobre-habilidades__titulo {
+    font-size: 2rem;
+    color: #beb9c7;
+    font-family: 'Abril Fatface', cursive;
+}
+
+.sobre-habilidades__lista {
+    text-decoration: none;
+}
+
+
+.btn {
+    text-decoration: none;
+}
+
+.btn-verde {
+    background: #EEC591;
+    padding: 5px;
+    color: white;
+    font-size: 1rem;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 10px;
+}
+
+/* REDES SOCIAIS */
+
+.redes {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    margin: 0 17%;
+    width: 200vh;
+}
+
+.redes-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.redes-container__titulo {
+    font-size: 2rem;
+    color: #beb9c7;
+    font-family: 'Abril Fatface', cursive;
+    text-align: left;
+}
+
+.redes-container__icones {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.btn-rosa {
+    background: #EEC591;
+    width: 37px;
+    height: 37px;
+    border-radius: 10%;
+}
